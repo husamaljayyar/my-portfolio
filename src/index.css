@@ -58,7 +58,7 @@
   background: rgba(80, 80, 80, 0.1);
 }
 .skils-section {
-  @apply w-28 h-28 m-1 text-center font-bold rounded-lg  text-white flex flex-row items-center justify-center text-base  bg-indigo-600 ;
+  @apply w-28 h-28 m-1 text-center font-bold rounded-lg  text-white flex flex-row items-center justify-center text-base  bg-indigo-500 ;
 /*   @apply w-28 h-28 m-1 text-center font-bold rounded-lg bg-Purple text-white flex flex-row items-center justify-center text-base;
  */        
 }

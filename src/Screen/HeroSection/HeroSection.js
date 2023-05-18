@@ -44,7 +44,7 @@ const HeroSection = () => {
 
         <div
           className="flex flex-col items-center md:items-start justify-end 
-          text-xl h-auto  md:w-1/2 w-full animate__animated animate__zoomInDown "
+          text-xl h-auto  md:w-1/2 w-full animate__animated animate__zoomInDown"
         >
           <h1
             className="w-auto font-mono h-auto font-semibold	text-indigo-500 text-3xl 
@@ -60,14 +60,14 @@ const HeroSection = () => {
             Front End Developer
           </h1>
           <p
-            className="w-auto	h-auto text-xl leading-8 
+            className="w-auto	h-auto text-xl leading-8 pb-9
              mt-2 text-slate-500 text-white  
             font-light text-center md:text-left"
           >
             A creative front-end developer at your service with solid experience
             in react library....
           </p>
-          <a href="#section2">
+          <a href="#section2" className=" ms-20 ">
             <RiArrowDownLine
               className="text-indigo-500 text-4xl text-center w-450 mt-10 hidden  md:block
             	animate-bounce 	 	"
