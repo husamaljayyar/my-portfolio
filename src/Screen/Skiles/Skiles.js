@@ -1,9 +1,9 @@
 export default function Skiles() {
   return (
     <>
-      <div className=" w-auto h-auto flex flex-col items-center   ">
+      <div className=" w-auto h-auto flex flex-col items-center ">
         <p
-          className="font-bold text-2xl border-Purple border-b-4 uppercase my-5  
+          className="text-2xl border-Purple border-b-4 uppercase my-5   font-sans
              text-center"
         >
           Skiles

@@ -3,33 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.3.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
     "animate.css": "^4.1.1",
-    "json-server": "^0.17.0",
-    "rc-slider": "^9.7.2",
-    "react": "^17.0.2",
-    "react-carousel-minimal": "^1.4.1",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-responsive-carousel": "^3.2.21",
-    "react-router": "^5.2.1",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "react-simply-carousel": "^5.1.3",
-    "react-slick": "^0.28.1",
-    "react-swipeable-views": "^0.14.0",
-    "swipeable-views-react": "^0.6.6",
-    "swiper": "7.0.8",
-    "uuidv4": "^6.2.12",
-    "web-vitals": "^1.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,8 +38,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.36",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+    "tailwindcss": "^3.3.2"
   }
 }

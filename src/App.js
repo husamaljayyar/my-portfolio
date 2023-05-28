@@ -7,14 +7,14 @@ import Footer from "./Screen/Footer/Footer";
 
 const App = () => {
   return (
-    <div className="overflow-hidden  flex flex-col items-center justify-center">
-   <HeroSection />
+    <div className="overflow-hidden flex flex-col items-center justify-center">
+      <HeroSection />
       <MySelf />
       <MyProject />
       <Servce />
       <Footer />
-  </div>
-   );
+    </div>
+  );
 };
 
 export default App;

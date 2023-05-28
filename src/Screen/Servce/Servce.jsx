@@ -5,17 +5,15 @@ import { MdWeb } from "react-icons/md";
 export default function Servce() {
   return (
     <>
-      <div className="flex flex-col items-center py-10 h-auto w-screen  ">
-        {" "}
-        <p className="font-bold text-2xl border-text-white border-indigo-500 border-b-4  uppercase    ">
+      <div
+        id="section2"
+        className="flex flex-col items-center justify-center m-10 flex-wrap w-full "
+      >
+        <p className="text-2xl border-text-white border-indigo-500 border-b-4 uppercase font-sans ">
           our services section
         </p>{" "}
-        <div
-          className="flex flex-row  justify-center items-start   flex-wrap  h-auto    m-5  w-screen 
-          
-        "
-        >
-          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500   ">
+        <div className="w-2/3 max-w-screen-2xl flex lg:flex-row flex-col items-center justify-between ">
+          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500 rounded-md  ">
             <LandingPage
               className="mb-5 text-2xl "
               height="1.8em"
@@ -30,7 +28,7 @@ export default function Servce() {
             </p>
           </div>
 
-          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500">
+          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500 rounded-md ">
             <MdWeb className="mb-5 text-5xl" />
             <h3 className="font-mono font-bold text-lg text-center">
               Build websites{" "}
@@ -41,8 +39,8 @@ export default function Servce() {
             </p>
           </div>
 
-          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500 ">
-            <BsCodeSlash className="mb-5  text-5xl" />
+          <div className="Boox flex flex-col justify-start items-center text-white  bg-indigo-500 rounded-md ">
+            <BsCodeSlash className="mb-5 text-5xl" />
             <h3 className="font-mono font-bold text-lg text-center">
               develop and coding the applications
             </h3>
