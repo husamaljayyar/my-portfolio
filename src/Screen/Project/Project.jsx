@@ -5,10 +5,10 @@ import { MdOpenInNew } from "react-icons/md";
 export default function MyProject() {
   return (
     
-      <section className=" bg-slate-50 w-screen flex flex-col items-center ">
-            <div className="container flex flex-col items-center  m-10 flex-wrap   " style={{width: "85vw"}}>
+      
+    <div className="container flex flex-col items-center  m-10 flex-wrap w-80  ">
     
-    <h5 className="w-auto font-bold text-2xl border-indigo-500 border-b-4 uppercase  mb-5 ">
+    <h5 className="w-auto font-bold text-2xl border-Purple border-b-4 uppercase  mb-5 ">
     My Project
   </h5>
 
@@ -36,7 +36,5 @@ export default function MyProject() {
       ))}
     </div>
     </div>
-
-      </section>
   );
 }

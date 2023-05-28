@@ -7,6 +7,8 @@ import movies from "../../Image/movies.png"; //
 import ToDoList from "../../Image/ToDoList.png";
 import Flower from "../../Image/flower.png";
 import ExpenseTracker from "../../Image/ExpenseTracker.png";
+import Hotel from "../../Image/hotel.png";
+
 
 const dataSlider = [
   {
@@ -23,9 +25,27 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
+    title: "Hotel website",
+    image: Hotel,
+    link: "https://hotel-website-qy5a.vercel.app/",
+  },
+  {
+    id: uuidv4(),
     title: "movies",
     image: movies,
     link: "https://movies-blue.vercel.app/",
+  },
+  {
+    id: uuidv4(),
+    title: "Flower",
+    image: Flower,
+    link: "https://photo-app-psi.vercel.app/",
+  },
+  {
+    id: uuidv4(),
+    title: "ExpenseTracker",
+    image: ExpenseTracker,
+    link: "https://expense-tracker-zeta-one.vercel.app/",
   },
   {
     id: uuidv4(),
@@ -40,18 +60,9 @@ const dataSlider = [
     image: ToDoList,
     link: "https://to-do-list-ten-vert.vercel.app/",
   },
-  {
-    id: uuidv4(),
-    title: "Flower",
-    image: Flower,
-    link: "https://photo-app-psi.vercel.app/",
-  },
-  {
-    id: uuidv4(),
-    title: "ExpenseTracker",
-    image: ExpenseTracker,
-    link: "https://expense-tracker-zeta-one.vercel.app/",
-  },
+
+
+
 ];
 
 export default dataSlider;

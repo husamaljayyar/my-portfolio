@@ -10,7 +10,7 @@ import "animate.css";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-row items-center justify-center  md:h-70 h-auto w-screen HeroSection    ">
+    <div className="flex flex-row items-center justify-center  md:h-70 h-auto w-screen HeroSection   ">
       <div className="flex flex-col justify-between absolute  left-2 top-32 h-36 w-14  ">
         <a href="https://www.facebook.com/">
           <FaFacebookF className=" text-gray-200 text-2xl" />
@@ -44,7 +44,7 @@ const HeroSection = () => {
 
         <div
           className="flex flex-col items-center md:items-start justify-end 
-          text-xl h-auto  md:w-1/2 w-full animate__animated animate__zoomInDown"
+          text-xl h-auto  md:w-1/2 w-full animate__animated animate__zoomInDown "
         >
           <h1
             className="w-auto font-mono h-auto font-semibold	text-indigo-500 text-3xl 
@@ -60,14 +60,14 @@ const HeroSection = () => {
             Front End Developer
           </h1>
           <p
-            className="w-auto	h-auto text-xl leading-8 pb-9
+            className="w-auto	h-auto text-xl leading-8
              mt-2 text-slate-500 text-white  
             font-light text-center md:text-left"
           >
             A creative front-end developer at your service with solid experience
             in react library....
           </p>
-          <a href="#section2" className=" ms-20 ">
+          <a href="#section2">
             <RiArrowDownLine
               className="text-indigo-500 text-4xl text-center w-450 mt-10 hidden  md:block
             	animate-bounce 	 	"
